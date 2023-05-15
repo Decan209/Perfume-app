@@ -1,0 +1,4 @@
+.link-footer:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}

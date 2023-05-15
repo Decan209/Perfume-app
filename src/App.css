@@ -1,0 +1,98 @@
+img {
+  background-size: cover;
+}
+
+.bg-9c6711 {
+  background-color: #9c6711;
+}
+
+.bg-blue-081857 {
+  background-color: #081857;
+}
+
+.bg-5c79b1 {
+  background-color: #5c79b1;
+}
+
+.bg-d95442 {
+  background-color: #d95442;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+
+.slick-next:before {
+  color: black !important;
+}
+
+.slick-prev:before {
+  color: black !important;
+}
+
+.text-cdcac9 {
+  color: #cdcac9;
+}
+
+.text-6d6c97 {
+  color: #6d6c97;
+}
+
+.text-blue-081857 {
+  color: #081857;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #f3f3f3; /* Light grey */
+  border-top: 2px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.modal-ta {
+  position: fixed;
+  top: calc(50% - 75px);
+  left: calc(50% - 200px);
+  width: 400px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 2px 2px 20px grey;
+  z-index: 10;
+  padding: 16px;
+  text-align: center;
+}
+
+.productImg {
+  width: 234.25px;
+  height: 234.25px;
+}
+
+.app {
+  position: relative;
+  padding-bottom: 558px;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding-bottom: 374px;
+  }
+} 

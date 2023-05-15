@@ -1,0 +1,57 @@
+.modal-overlay {
+  z-index: 1;
+  width: 70%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-overlay{
+  z-index: 1;
+  width: 70%;
+  height:100%;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.modal-box {
+  display: block;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: white;
+  border: 2px solid black
+}
+.modal-box-bills {
+  display: block;
+  width: 50%;
+  height: 40%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: white;
+  border: 2px solid black
+}
+
+.AddInputBox{
+  border : 2px solid black;
+  width: 100%;
+  padding: 6px;
+}
+
+.previewImg {
+  width: 234.25px;
+  height: 234.25px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-priview {
+  background-image: url('./imgs/image-preview-icon-picture-placeholder-vector-31284806.jpg');
+}
