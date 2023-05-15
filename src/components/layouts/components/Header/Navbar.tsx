@@ -18,7 +18,6 @@ import TotalItems from "./TotalItems";
 const Navbar: FC = () => {
   const { isLogin, isAdmin } = useSelector(selectUser);
   const { userData, totalItems } = useContext(UserContext);
-  console.log(userData)
 
   const [isOpenNavbarMobile, setIsOpenNavbarMobile] = useState(false);
   const [modalNotLogin, setModalNotLogin] = useState(false);
